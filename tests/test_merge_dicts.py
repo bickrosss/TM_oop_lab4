@@ -3,7 +3,7 @@
 
 from typing import get_type_hints
 import pytest
-from merge_dicts import merge_dicts
+from merge_dicts_package.merge_dicts import merge_dicts
 
 
 def test_type_hints_exist():

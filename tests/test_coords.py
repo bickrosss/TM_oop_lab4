@@ -34,4 +34,4 @@ def test_argument_types():
 
 def test_get_coords_with_integers():
     # Целые числа должны работать, так как они совместимы с float
-    assert get_coords((10, 20)) == "x=10.0, y=20.0"
+    assert get_coords((10, 20)) == "x=10, y=20"
