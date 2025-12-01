@@ -1,4 +1,3 @@
-# Файл 2: task_1.py
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
