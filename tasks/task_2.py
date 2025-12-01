@@ -5,7 +5,6 @@ from typing import get_type_hints
 from merge_dicts_package.merge_dicts import merge_dicts
 
 def input_dict(prompt: str) -> dict:
-    """Функция для ввода словаря с клавиатуры"""
     print(prompt)
     result = {}
     while True:
@@ -17,7 +16,7 @@ def input_dict(prompt: str) -> dict:
     return result
 
 def main():
-    print("=== Задание 2: Функция merge_dicts ===")
+    print("Функция merge_dicts")
     
     print("\nВвод первого словаря:")
     dict1 = input_dict("Первый словарь:")
