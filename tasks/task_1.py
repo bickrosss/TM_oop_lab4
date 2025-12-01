@@ -6,8 +6,6 @@ from coords import get_coords
 
 def main():
     print("Функция get_coords")
-    
-    # Ввод координат с клавиатуры
     try:
         x = float(input("Введите координату x: "))
         y = float(input("Введите координату y: "))
