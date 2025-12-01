@@ -5,7 +5,7 @@ from typing import get_type_hints
 from coords import get_coords
 
 def main():
-    print("=== Задание 1: Функция get_coords ===")
+    print("Функция get_coords")
     
     # Ввод координат с клавиатуры
     try:
